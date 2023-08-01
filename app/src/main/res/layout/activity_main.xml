@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvVuelosReservados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnRegistrarAerolinea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrar Aerolinea" />
+
+            <TextView
+                android:id="@+id/tvMisVuelosReservados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mis vuelos reservados:"
+                tools:ignore="MissingConstraints" />
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMostrarVuelos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Vuelos"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnRegistrarVuelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Vuelo"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
