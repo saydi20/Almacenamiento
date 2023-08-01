@@ -28,8 +28,7 @@
                 android:layout_height="wrap_content"
                 android:text="Mis vuelos reservados:"
                 tools:ignore="MissingConstraints" />
-        </ListView>
-    </LinearLayout>
+        
 
     <Button
         android:id="@+id/btnMostrarVuelos"
